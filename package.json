@@ -7,11 +7,11 @@
     "test": "jest",
     "lint": "eslint .",
     "typecheck": "flow",
-    "flow start": "flow start",
-    "flow stop": "flow stop",
-    "flow status": "flow status",
-    "flow coverage": "flow coverage",
-    "flow coverage report": "flow-coverage-report --config ./.flowcoverage",
+    "flow-start": "flow start",
+    "flow-stop": "flow stop",
+    "flow-status": "flow status",
+    "flow-coverage": "flow coverage",
+    "flow-coverage-report": "flow-coverage-report --config ./.flowcoverage",
     "precommit": "lint-staged && yarn typecheck"
   },
   "dependencies": {
@@ -36,10 +36,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn validate"
-    }
   }
 }

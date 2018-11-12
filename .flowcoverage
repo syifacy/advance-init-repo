@@ -8,8 +8,7 @@
   "outputDir": "flow-coverage",
   "threshold": 80,
   "reportTypes": [
-    "html",
-    "json",
-    "text"
+    "text",
+    "html"
   ]
-}
+} 
